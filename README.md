@@ -1,5 +1,5 @@
 # Binary Buffer serialization
-Saving on bytes when serializing objects of a known type instead of using general purpose JSON that required more data tp be transferred.
+Saving on bytes when serializing objects of a known type instead of using general purpose JSON that requires more data to be transferred due to the human-readable format.
 
 Similar to the principle behind [Protocol Buffers - protobuf](https://protobuf.dev/) but with a custom serializer.
 ### Running Java
